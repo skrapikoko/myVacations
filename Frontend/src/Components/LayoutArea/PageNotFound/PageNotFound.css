@@ -1,0 +1,31 @@
+.PageNotFound {
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.PageNotFound>h2 {
+    font-size: min(8vw, 5rem);
+    font-weight: bolder;
+    animation: glitch 2s infinite steps(1);
+    grid-column: 2;
+}
+
+.PageNotFound>p {
+    grid-column: 2;
+}
+
+
+.PageNotFound>.msg404 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: min(8vw, 5rem);
+    grid-column: 2;
+}
+
+.PageNotFound>.msg404>div {
+    animation: jumpingO 0.5s infinite ease-out alternate-reverse;
+}
+
+

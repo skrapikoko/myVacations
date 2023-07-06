@@ -1,0 +1,40 @@
+.CurrentVacations {
+    display: grid;
+    place-content: center;
+    overflow: hidden;
+    animation: currentVacationsInit 0.5s forwards;
+}
+
+.CurrentVacations>.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.CurrentVacations>.row>a {
+    transition: all 0.2s;
+    width: fit-content;
+    text-decoration: none;
+    color: black;
+    background-color: #eb8f51;
+    border-radius: 0.5rem;
+    border: 1px solid;
+    font-weight: bold;
+}
+
+.CurrentVacations>.row>a:hover {
+    transform: scale(1.1);
+}
+
+@keyframes currentVacationsInit {
+    from {
+        transform: translateY(1rem);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0rem);
+        opacity: 100;
+    }
+}

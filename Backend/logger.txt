@@ -1,0 +1,42 @@
+19.6.2023, 15:40:15 	 Image is required
+----------------------------
+19.6.2023, 15:40:34 	 connect ECONNREFUSED ::1:3306
+----------------------------
+19.6.2023, 15:40:55 	 UNKNOWN_CODE_PLEASE_REPORT: Table 'dorbnb.vacations' doesn't exist in engine
+----------------------------
+19.6.2023, 15:41:16 	 UNKNOWN_CODE_PLEASE_REPORT: Table 'dorbnb.vacations' doesn't exist in engine
+----------------------------
+19.6.2023, 16:13:01 	 Image is required
+----------------------------
+19.6.2023, 16:13:04 	 Image is required
+----------------------------
+5.7.2023, 16:35:06 	 ENOENT: no such file or directory, stat 'C:\reacte\dorBNB-Vacation-Project-master\Backend\src\1-Assets\Images\Vacations Images\f96b7e0c-1908-43ed-9d5b-2203145ee145.jpg'
+----------------------------
+5.7.2023, 16:35:06 	 ENOENT: no such file or directory, stat 'C:\reacte\dorBNB-Vacation-Project-master\Backend\src\1-Assets\Images\Vacations Images\194bddfb-013c-46dd-b56d-97300e655ed6.jpg'
+----------------------------
+5.7.2023, 16:35:06 	 ENOENT: no such file or directory, stat 'C:\reacte\dorBNB-Vacation-Project-master\Backend\src\1-Assets\Images\Vacations Images\15251ef1-72e9-4945-b1c0-3497f45369aa.jpg'
+----------------------------
+5.7.2023, 16:35:06 	 ENOENT: no such file or directory, stat 'C:\reacte\dorBNB-Vacation-Project-master\Backend\src\1-Assets\Images\Vacations Images\a66b400f-afdc-4bed-869e-7b67a8bc1954.jpg'
+----------------------------
+5.7.2023, 16:35:06 	 ENOENT: no such file or directory, stat 'C:\reacte\dorBNB-Vacation-Project-master\Backend\src\1-Assets\Images\Vacations Images\14f9332c-c4f9-4c95-b3f7-339330bd6e1a.jpg'
+----------------------------
+5.7.2023, 16:35:06 	 ENOENT: no such file or directory, stat 'C:\reacte\dorBNB-Vacation-Project-master\Backend\src\1-Assets\Images\Vacations Images\4ddbb7ed-0bc3-4fe1-a6ae-ba5514d14814.jpg'
+----------------------------
+5.7.2023, 16:35:06 	 ENOENT: no such file or directory, stat 'C:\reacte\dorBNB-Vacation-Project-master\Backend\src\1-Assets\Images\Vacations Images\7b1664f1-6b2a-4147-9ab7-8c24daa7c579.jpg'
+----------------------------
+5.7.2023, 16:35:06 	 ENOENT: no such file or directory, stat 'C:\reacte\dorBNB-Vacation-Project-master\Backend\src\1-Assets\Images\Vacations Images\03cb205b-6cbb-44c2-9939-64355f82b57c.jpg'
+----------------------------
+5.7.2023, 16:35:06 	 ENOENT: no such file or directory, stat 'C:\reacte\dorBNB-Vacation-Project-master\Backend\src\1-Assets\Images\Vacations Images\8c677f97-9e77-42a9-9c47-1516e471a3f1.jpg'
+----------------------------
+5.7.2023, 16:35:07 	 ENOENT: no such file or directory, stat 'C:\reacte\dorBNB-Vacation-Project-master\Backend\src\1-Assets\Images\Vacations Images\31dd291a-afcc-4499-b822-fe8d056ab333.jpg'
+----------------------------
+5.7.2023, 16:35:13 	 ENOENT: no such file or directory, unlink './src/1-Assets/Images/Vacations Images/f96b7e0c-1908-43ed-9d5b-2203145ee145.jpg'
+----------------------------
+5.7.2023, 16:37:20 	 id 109 not exist
+----------------------------
+5.7.2023, 16:54:13 	 "price" must be a number
+----------------------------
+5.7.2023, 16:54:25 	 Image is required
+----------------------------
+5.7.2023, 16:57:42 	 "price" must be less than or equal to 10000
+----------------------------

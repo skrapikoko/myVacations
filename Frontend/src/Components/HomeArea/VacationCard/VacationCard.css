@@ -1,0 +1,178 @@
+.VacationCard {
+    transition: all 0.2s;
+    margin: auto;
+    margin-bottom: 1rem;
+    border: 1px solid;
+    border-radius: 0.5rem;
+    min-height: 15rem;
+    min-width: 10rem;
+    max-width: 12rem;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    filter: brightness(0.7);
+    animation: cardInit 0.5s forwards;
+}
+
+.VacationCard:hover {
+    transform: scale(1.1);
+    filter: brightness(1.1);
+}
+
+/* Vacation content hidden */
+.VacationCard>:not(.followersCount) {
+    transition: all 0.3s;
+    transform: translateY(12rem);
+}
+
+/* Vacation content slide up */
+.VacationCard:hover>* {
+    transform: translateY(0);
+}
+
+.vacationDescription::-webkit-scrollbar {
+    width: 0.9rem;
+}
+
+.VacationCard:hover .vacationDescription::-webkit-scrollbar {
+    width: 1rem;
+}
+
+.vacationDescription::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 0.2rem;
+}
+
+.vacationDescription:hover::-webkit-scrollbar-thumb {
+    border-right: 0.3rem solid #0745b0;
+    background: #0745b0;
+}
+
+.VacationCard>.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.VacationCard .vacationHead {
+    filter: brightness(1.5);
+    -webkit-text-stroke: 0.09px white;
+    background-color: rgba(0, 0, 0, 0.568);
+    backdrop-filter: blur(3px);
+}
+
+.VacationCard .vacationDescription {
+    transition: all 0.3s;
+    height: 3.3rem;
+    margin: 0.5rem;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(3px);
+}
+
+.VacationCard:hover .vacationDescription {
+    padding-left: 1rem;
+    font-weight: bold;
+    -webkit-text-stroke: 0.3px white;
+    background-color: rgba(0, 0, 0, 0.568);
+}
+
+.VacationCard>.modalBtnContainer>*>.adminModal {
+    display: flex;
+}
+
+.VacationCard>.modalBtnContainer button {
+    transition: all 0.2s;
+    background-color: white;
+    color: #eb8f51;
+    font-weight: bold;
+    border-radius: 0.3rem;
+    border: 1px solid black;
+}
+
+.VacationCard>.modalBtnContainer button:hover {
+    transform: scale(1.1);
+    background-color: #eb8f51;
+    color: #252525;
+    font-weight: bolder;
+}
+
+.VacationCard>.modalBtnContainer {
+    position: relative;
+    top: 6rem;
+}
+
+.VacationCard>.followersCount {
+    text-decoration: none;
+    color: black;
+    transition: all 0.2s;
+    transform: scale(0.5);
+    position: absolute;
+    display: grid;
+    place-content: center;
+    right: -0.3rem;
+    bottom: -0.3rem;
+    z-index: 999;
+    border-radius: 50%;
+    padding: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+    border: 0.1rem solid;
+}
+
+.VacationCard:hover>.followersCount {
+    transform: scale(1);
+    right: 0;
+    bottom: 0;
+    background-color: #eb8f51;
+    shape-outside: circle();
+}
+
+.VacationCard>.followersCount:hover {
+    transform: scale(2);
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.VacationCard>.followersCount>.count {
+    font-size: small;
+    font-weight: 900;
+    padding-top: 0.2rem;
+    padding-right: 0.1rem;
+}
+
+.VacationCard>.followersCount>.icon {
+    position: absolute;
+    justify-self: center;
+    top: -0.4rem;
+    transform: scale(0.7);
+}
+
+.VacationCard>.followersCount>.text {
+    display: none;
+    font-size: 0.2rem;
+    font-weight: bolder;
+    transform: scale(1.4);
+}
+
+.VacationCard>.followersCount:hover>.text {
+    position: absolute;
+    right: 25%;
+    bottom: 0.2rem;
+    display: flex;
+}
+
+@keyframes cardInit {
+    from {
+        transform: translateY(1rem);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0rem);
+        opacity: 100;
+    }
+}

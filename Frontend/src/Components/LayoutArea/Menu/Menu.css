@@ -1,0 +1,74 @@
+.Menu {
+    height: 100%;
+}
+
+.Menu>.logoRow>a>img {
+    transition: all 0.3s;
+    margin: auto;
+    width: min(40vw, 20rem);
+    min-width: 8rem;
+    padding: 1rem;
+}
+
+.Menu>.logoRow>img {
+    margin: auto;
+    width: min(40vw, 20rem);
+    min-width: 8rem;
+    padding: 1rem;
+}
+
+.Menu>.logoRow>a>img:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0.9rem 0.75rem #313131);
+}
+
+.Menu>.logoRow>a>img:active {
+    transform: scale(1);
+}
+
+.Menu>.searchRow>input {
+    transition: all 0.3s;
+    margin: auto;
+    width: 3rem;
+    height: 2.7rem;
+    border-radius: 50%;
+}
+
+.Menu>.searchRow>input:focus {
+    border-radius: 1rem;
+    width: 8rem;
+    height: 2rem;
+}
+
+.Menu>.searchRow>input::-webkit-input-placeholder {
+    text-align: center;
+}
+
+.Menu>.searchRow>input:-moz-placeholder {
+    text-align: center;
+}
+
+.Menu>.navs {
+    gap: 0.5vw;
+    padding: 1rem;
+}
+
+.Menu>.navs>a {
+    transition: all 0.2s;
+    text-decoration: none;
+    color: #eb8f51;
+    font-weight: bold;
+    background-color: #252525;
+    border-radius: 0.5rem;
+    font-size: min(1vw, 10rem) max(10rem, 1vw);
+}
+
+.Menu>.navs>a:hover {
+    color: white;
+    background-color: #353535;
+}
+
+.Menu>.navs>a.active {
+    color: white;
+    background-color: #353535;
+}

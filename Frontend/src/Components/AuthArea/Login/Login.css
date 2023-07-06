@@ -1,0 +1,26 @@
+.Login>form>h2 {
+    text-align: center;
+}
+
+.Login>form>.registerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Login>form {
+    animation: loginInit 1s forwards;
+}
+
+@keyframes loginInit {
+    from {
+        transform: translateY(1rem);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0rem);
+        opacity: 100;
+    }
+}

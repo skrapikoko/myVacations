@@ -1,0 +1,7 @@
+.Footer {
+    height: 100%;
+}
+
+.Footer>.row>p {
+    font-size: small;
+}
